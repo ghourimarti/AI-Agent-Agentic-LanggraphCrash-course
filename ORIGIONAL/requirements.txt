@@ -5,4 +5,3 @@ python-dotenv
 langchain-groq 
 langchain_tavily
 typing_extensions
-python-dotenv

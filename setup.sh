@@ -6,6 +6,17 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 
 python -m ipykernel install --user --name cuda-gpt --display-name "fine-tuning"
 
+
+
+# ------------------------------------------------------------------------
 # activate the environment
 python -m venv agent
 source agent/Scripts/activate
+
+uv init
+
+uv venv
+
+uv add -r requirements.txt
+
+uv add ipykernel
