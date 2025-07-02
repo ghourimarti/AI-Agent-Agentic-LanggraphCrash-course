@@ -6,3 +6,5 @@ langchain-groq
 langchain_tavily
 typing_extensions
 python-dotenv
+mcp
+langchain-mcp-adapter
